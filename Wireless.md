@@ -1,6 +1,8 @@
 # ESP8266 Setup
 
-### The Wiring
+
+
+## The Wiring
 
 ESP pinout:
 
@@ -34,7 +36,7 @@ Congrats, you just sent a message to the ESP!
 
 <br>
 
-### Connect to your Wireless Network
+## Connect to your Wireless Network
 
 From the Serial Monitor (Tools > Serial Monitor), we can communicate directly with the ESP chip using the LUA programming language.
 
@@ -70,7 +72,9 @@ You can reset your ESP device with the command `RST`, then start over from the f
 
 <br>
 
-###  ### Arduino - ESP communication
+
+
+## Arduino - ESP communication
 
 My first test is always to run the BareMinimum sketch and make sure I don't see any errors.
 
