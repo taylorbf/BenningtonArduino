@@ -42,17 +42,21 @@ Type in each of the following commands in order to connect to your wifi network.
 
 If you see a response of `ERROR`, check for any typos, check your wiring, etc.
 
-- **command**:  `AT` 
+- **Command**:  `AT` 
 
-  - responds: `OK`
+  - Responds: `OK`
 
-- **command**:  `AT+CWMODE=1` 
+- **Command**:  `AT+CWMODE=1` 
 
-- **command**:  `AT+CWLAP` 
+- **Command**:  `AT+CWLAP`    
 
-  - responds: a list of the wifi networks that it sees
+  - LAP stands for List Access Points
+  - Responds with a list of the wifi networks that the ESP sees
 
-- **command**:  `AT+CWJAP="yourwifinetworkname","password"`
+- **Command**:  `AT+CWJAP="yourwifinetworkname","password"`     
+
+  - JAP stands for Join Access Point
+  - Note that here you need to replace the requisite text. An example might be: `AT+CWJAP="thespoilsoftime","NiftyPassword"`
 
   <br>
 
