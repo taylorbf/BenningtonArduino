@@ -22,7 +22,7 @@ ESP pinout:
 
 When you plug in the 3.3v to your ESP, the LED on your ESP should light up and stay lit.
 
-
+<br>
 
 **Test Your Connection**
 
@@ -32,7 +32,7 @@ In the top text input bar of the Serial Monitor, type `AT` and hit enter. If all
 
 Congrats, you just sent a message to the ESP!
 
-
+<br>
 
 ### Connect to your Wireless Network
 
@@ -54,7 +54,7 @@ If you see a response of `ERROR`, check for any typos, check your wiring, etc.
 
 - **command**:  `AT+CWJAP="yourwifinetworkname","password"`
 
-  ​
+  <br>
 
 **Test**
 
@@ -64,7 +64,7 @@ To test that you are successfully connected to wifi, type `AT+CWJAP?` . You shou
 
 You can reset your ESP device with the command `RST`, then start over from the first step.
 
-
+<br>
 
 ###  ### Arduino - ESP communication
 
