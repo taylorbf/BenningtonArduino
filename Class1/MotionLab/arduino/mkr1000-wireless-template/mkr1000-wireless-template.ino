@@ -6,7 +6,6 @@
 int status = WL_IDLE_STATUS;
 char ssid[] = "NetworkName"; //  your network SSID (name)
 char pass[] = "Password";    // your network password (use for WPA, or use as key for WEP)
-String DestinationIP: "192.168.1.1"; // the IP of your computer running max
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 
 WiFiUDP Udp;
@@ -55,7 +54,7 @@ void loop() {
     valueString.toCharArray(value,valueString.length()+1);
     Serial.println(value);
   
-    Udp.beginPacket(DestinationIP, 7777);
+    Udp.beginPacket("192.168.1.5", 8080);
     Udp.write(value);
     Udp.endPacket();
   

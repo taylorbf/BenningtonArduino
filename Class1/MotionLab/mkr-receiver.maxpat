@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 39.0, 92.0, 1132.0, 657.0 ],
+		"rect" : [ 66.0, 233.0, 1132.0, 657.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -738,7 +738,7 @@
 					"outlettype" : [ "list", "int" ],
 					"patching_rect" : [ 15.0, 26.0, 147.0, 22.0 ],
 					"style" : "",
-					"text" : "sadam.udpReceiver 7777"
+					"text" : "sadam.udpReceiver 8080"
 				}
 
 			}
