@@ -54,11 +54,12 @@ The board is **3.3v**, which is different than the Uno (5v), so be careful. Most
 
 - Go to Tools > Board and select the MKR1000.
 - Open /arduino/mkr-wireless-template sketch from the workshop folder
-- Replace the 3 lines at the top of the sketch with your own network information:
+- Replace the 2 lines at the top of the sketch with your own network information:
 
   - Network Name
   - Network Password
-  - IP of your computer. If you're not sure how to find your IP, these steps may help. If not, ask!
+- Also change, in the middle of the patch, the IP address. You'll have to hunt around abit, sorry!
+  - Change it to the IP of your computer. If you're not sure how to find your IP, ask!
 - Upload to your board!
 - Open the serial monitor so you can see what is happening. It may take a few seconds to start (but not more than 30 seconds).
 - ​If all goes well, you will see the serial monitor print its wireless connection information, and you will see a lot of random values showing up in Max.
