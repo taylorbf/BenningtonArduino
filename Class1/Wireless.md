@@ -34,7 +34,7 @@ The board is **3.3v**, which is different than the Uno (5v), so be careful. Most
    - On the menu bar, go to Sketch > Include Library > Manage Libraries
    - Search for "Wifi101" by Arduino and install it
 
-3. **Download the workshop folder**
+3. **[Download the workshop folder](https://github.com/taylorbf/BenningtonArduino/archive/master.zip)** 
 
 
 
