@@ -1,8 +1,16 @@
 # Ultrasonic Workshop
 
+
+
 <img src="images/ultrasonic-1.jpg" width="400px"> 
 
 ## Basic Use
+
+The following code is for the HC-SR04, which has Trig and Echo pins.
+
+If you are using a PING sensor, you have a built-in sketch in the Examples folder of your Arduino IDE. Examples > 06.Sensors > Ping
+
+
 
 **Connections**
 
@@ -81,8 +89,11 @@ void setup() {
 }
 
 void loop() {
-  // get a sensor value from pin 0
+  // get a sensor value
+  // (for testing, you can use a random number generator)
   float value = random(0,10);
+  
+  // then smooth it..
   // average the current sensor value with the previous sensor value
   float smoothed = (value + previous) / 2;
   // the current value is now the previous value!
